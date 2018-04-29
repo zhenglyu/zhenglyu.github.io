@@ -1,0 +1,66 @@
+# Site
+title: Mr.Zheng
+description: I love good things and great design.
+url: http://zhenglyu.com
+logo: home_avatar.png                             # 首页左侧头像Logo
+locale: zh_CN
+
+# Left Block Images
+background:
+  homepage: images/home_left_lens.jpg             # 主页的左侧图片
+  post-list: images/home_left_book.jpg             # Posts 列表的默认左侧图片
+  default-post: images/home_left_sea_bw.jpg       # Post 页面的默认左侧图片
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+sass:
+  sass_dir:         assets/_sass
+  style:            compressed
+
+# Google Analytics
+#google-analytics: UA-XXXXX-Y
+
+# Social Links
+email:             work@zhenglyu.com
+facebook:          lyu.zheng
+instagram:         zhenglyu
+weibo:             zhenglv
+wechat:            http://zhenglyu.com/wechat.html
+
+#google.plus:        username
+#twitter:            zheng_lyu
+#github:             zhenglyu
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#linkedin:          username
+#xing:              username
+#lastfm:            username
+#tumblr:            username
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+#youtube:           username
+#soundcloud:        username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+#behance:           username
+
+# Gems
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+# Exclude list
+include: [_pages]
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]
