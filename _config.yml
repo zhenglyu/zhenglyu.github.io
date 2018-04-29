@@ -1,66 +1,43 @@
-# Site
-title: Mr.Zheng
-description: I love good things and great design.
-url: http://zhenglyu.com
-logo: home_avatar.png                             # 首页左侧头像Logo
-locale: zh_CN
+# Site settings
+title: Zheng Lyu
+description: 'I love good things and great design.'
+url: 'http://zhenglyu.com'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
 
-# Left Block Images
-background:
-  homepage: images/home_left_lens.jpg             # 主页的左侧图片
-  post-list: images/home_left_book.jpg             # Posts 列表的默认左侧图片
-  default-post: images/home_left_sea_bw.jpg       # Post 页面的默认左侧图片
-# Jekyll
-permalink:          /:title/
-markdown:           kramdown
-highlighter:        rouge
-kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
+author:
+  name: 'Zheng Lyu'
+  email: mail@zhenglyu.com
+  facebook_username: lyu.zheng
+  instagram_username: zhenglyu
+  wechat_username:  ZhengLyu
+  linkedin_username:  zhenglyu
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
 sass:
-  sass_dir:         assets/_sass
-  style:            compressed
+    sass_dir: _sass
+    style: compressed
 
-# Google Analytics
-#google-analytics: UA-XXXXX-Y
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
 
-# Social Links
-email:             work@zhenglyu.com
-facebook:          lyu.zheng
-instagram:         zhenglyu
-weibo:             zhenglv
-wechat:            http://zhenglyu.com/wechat.html
-
-#google.plus:        username
-#twitter:            zheng_lyu
-#github:             zhenglyu
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
-#xing:              username
-#lastfm:            username
-#tumblr:            username
-#pinterest:         username
-#foursquare:        username
-#steam:              username
-#dribbble:          username
-#youtube:           username
-#soundcloud:        username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
-#behance:           username
-
-# Gems
-gems:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
-
-# Exclude list
-include: [_pages]
-exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

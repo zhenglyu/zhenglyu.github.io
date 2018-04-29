@@ -1,0 +1,32 @@
+---
+title:  "Surface3"
+date:   2016-11-11 15:05:23
+categories: [Tech]
+tags: [Surface]
+---
+
+Surface RT 发布第一天入手到 Surface3，已经有4年了。当初天真以为微软全力开发ARM平台到Surface3预示着，在一段时间内，将彻底抛弃ARM版的Windows（IOT忽略）。这心情确实从希望到失望，再到希望。
+
+为何这么说，刚拿到RT的时候，着实被微软的ID给震撼到了。典型工程师驱动开发出的平板电脑。预装的Office，还有当时那让人惊讶的 touch cover。（好吧 Touch Cover虽然开始让人惊讶，那么薄的保护盖，还拥有键盘功能。然后一段时间后非常后悔没买Type Cover，因为Windows和iPad不一样，离不开键盘。）
+
+正如希望越大，失望越大。用了一段时间后，通病开始一个个出现了。Metro App应用太少，在APP太少的情况下，x86的程序又安装不了。ARM带动Windows，确实太吃力。慢慢的Surface已沦落到家里只拿来看视频的平板了……
+
+（上面都是废话）
+
+然而……2016年的10月，拿去保修的SurfaceRT，微软给我换成 Surface3。立马路转粉。
+
+我大巨硬威武，还赠送Type Cover。当然给我换的 Surface 3 是乞丐版（2G RAM + 64G ROM）
+
+拿到之前，心里还是悬起的，当年上网本ATOM的印象非常不好。于是在网上简单做了下功课，发现 ATOM X7系列的CPU可堪比i3（抛开GPU部分），这让我非常放心了。
+
+拿到后，简单小折腾，安装Office 2010，Chrome，Potplayer，几个UWP，测试了下1080P的电影效果。都太满意了，在ATOM+2G RAM的情况下，这性能完全满足了需求。
+
+于是立马在网上拍了 Surface4 Pen。为什么没买 Surface3的笔呢？一是没4的好看，二是用两种电池，三是用新不用旧。
+
+Surface3+Pen+Onenote 这搭配简直是神器
+
+经常有朋友说Surface3不好用，非常卡。喂~ 定位
+
+多少能力做多少事，不能拿入门的超极本，又想打游戏，又想PS……
+
+好了，今天先写到这类，以后再慢慢更新
