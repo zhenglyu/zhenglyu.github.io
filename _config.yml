@@ -1,8 +1,8 @@
 # Site settings
 title: Zheng Lyu
-description: 'Zheng Lyu - New idea 2 a minimal, responsive theme for Jekyll'
+description: 'Zheng Lyu - New idea 3 a minimal, responsive theme for Jekyll'
 url: 'https://zhenglyu.com'
-baseurl: 'https://zhenglyu.com'
+baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
