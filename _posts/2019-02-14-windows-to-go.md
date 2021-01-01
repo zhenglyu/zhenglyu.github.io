@@ -9,7 +9,5 @@ tags: [Tech,Windows]
 这个安装了 Windows 的驱动器，可以在任何一台没有安装 Windows 的设备中运行起 Windows 。
 
 <audio controls="controls">
-  <source src="/i/song.ogg" type="audio/ogg">
-  <source src="/i/song.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
+  <source src="/20210101_1.mp3" type="audio/mpeg">
 </audio>
